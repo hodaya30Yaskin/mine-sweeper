@@ -1,35 +1,62 @@
-
+body{
+background-color:cornsilk;
+}
 h1{
-    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .button-new-game{
-    margin-left: 45%;
     border-radius: 10px;
     margin-bottom: 15px;
     /* width: 30px;
     height: 30px; */
 }
 
-img{
+/* img{
     width: 40px;
     height: 40px;
     border-radius: 10px;
 }
+
+.board img{
+    margin-left:30px;
+    width: 50px;
+    height: 50px;
+    /* display: none; */
+/* } */ 
 /* .table{
     margin:auto;
     margin-left: 250px
 } */
 .board{
     background-color:aqua;
-    /* margin-left: 250px; */
-    /* width: 550px;
-    height: 250px; */
-
 }
 
 .cell{
     width :100px;
     height: 100px;
-    /* margin-left: 250px; */
-    /* margin: auto; */
+   
+}
+
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.cell :hover{
+    background-color: antiquewhite;
+}
+
+.timer{
+    background-color: aqua;
+    border-radius: 10px;
+    height: 20px;
+}
+
+.lives{
+    border-radius: 10px;
+    width: 100px;
+}
+.game-container{
+    margin-left: 100px;
 }
